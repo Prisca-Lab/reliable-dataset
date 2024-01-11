@@ -2,6 +2,10 @@
 This is a python script that can be used to check the reliability of a rosbag file. 
 Here you can find the implementation described in the paper "A Rosbag Tool to Improve Dataset Reliability" by F. Vigni, A. Andriella, S. Rossi.
 
+Running example from UE-HRI Dataset:
+- file: user106_2017-03-08.bag
+![alt text](img/example.png)
+
 
 ## Usage
 You can either directly run the script or use the docker image as described below.
