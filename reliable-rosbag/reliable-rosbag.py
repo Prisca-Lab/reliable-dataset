@@ -57,7 +57,7 @@ def is_rosbag_valid(rosbag_path, topics: list, measure, thres):
             if res > thres:
                 is_reliable = False
 
-            rows.append([selected_topic, measure, f"{thres}", f"{res:.2f}"])
+            rows.append([selected_topic, measure, f"{thres}", f"{res:.2f}", "Reliable" if is_reliable else "Unreliable"])
             user_input = click.prompt('Do you want to plot it? (yes/no)', type=str)
             # user_input = "no"
             if user_input.lower() == 'yes':
@@ -71,7 +71,7 @@ def is_rosbag_valid(rosbag_path, topics: list, measure, thres):
                 
         table = Table(title="Results")               
 
-        columns = ["TopicName", "Measure", "Threshold", "Result"]
+        columns = ["TopicName", "Measure", "Max Threshold", "Value", "Result"]
 
         for column in columns:
             table.add_column(column)
