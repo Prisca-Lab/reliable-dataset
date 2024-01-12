@@ -1,4 +1,8 @@
-# reliable-rosbag
+<div style="align-items: center;">
+  <img src="img/bag.png" alt="Rosbag" width="100">
+  <h1>reliable-rosbag</h1>
+</div>
+
 This is a python script that can be used to check the reliability of a rosbag file. 
 Here you can find the implementation described in the paper "A Rosbag Tool to Improve Dataset Reliability" by F. Vigni, A. Andriella, S. Rossi.
 
