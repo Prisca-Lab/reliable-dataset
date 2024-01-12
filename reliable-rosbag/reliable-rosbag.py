@@ -90,4 +90,34 @@ def is_rosbag_valid(rosbag_path, topics: list, measure, thres):
         raise click.Abort()
 
 if __name__ == '__main__':
+
+    # Create a console instance
+    console = Console()
+
+    # Display an introduction message
+    console.print("[bold underline]ROS Bag Analysis CLI[/bold underline]", style="bold magenta")
+    console.print("Welcome to the ROS Bag Analysis CLI tool. This tool analyzes the reliability of a ROS bag file based on specified topics and timestamp measures.", style="green")
+    console.print("A ROS Bag is labeled as 'reliable' when none of the given topics show a fluctuation (in terms of defined measure) lower then the set threshold", style="green")
+
+    # Display usage information
+    console.print("[bold]Usage:[/bold] python your_script.py <rosbag_path> --topics <topic1> <topic2> ... [options]", style="cyan")
+    console.print("Example: python your_script.py /path/to/rosbag.bag --topics /sensor/data --measure std --thres 0.5", style="cyan")
+
+    # Display available options
+    console.print("\n[bold]Options:[/bold]", style="cyan")
+    console.print("--topics, -t  [cyan]   Specify ROS topics of interest (multiple allowed)[/cyan]")
+    console.print("--measure, -m [cyan]   Choose measure type ('std' or 'var')[/cyan]")
+    console.print("--thres, -th  [cyan]   Max threshold of the defined measure[/cyan]")
+
+    # Provide additional information or instructions
+    console.print("\n[bold]Additional Information:[/bold]", style="cyan")
+    console.print(" - The tool calculates the standard deviation ('std') or variance ('var') of timestamp differences for each specified topic.")
+    console.print(" - Results are displayed in a table, and unreliable ROS bags are highlighted in [bold red]red[/bold red].")
+    console.print(" - Optionally, you can plot the timestamp data for each specified topic.")
+
+    # Display a separator
+    console.print("\n[bold]-----------------------------------------[/bold]\n", style="magenta")
+
+    # Add any other specific information or usage instructions if needed
+
     is_rosbag_valid()

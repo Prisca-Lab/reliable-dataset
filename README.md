@@ -34,3 +34,15 @@ python3 reliable-rosbag.py <bag-name> -t <topic1> -t <topic2> ...
 ```
 python3 reliable-rosbag.py user106_2017-03-08.bag -t /naoqi_driver_node/camera/front/image_raw -t /naoqi_driver_node/camera/bottom/image_raw -m var
 ```
+
+
+## Screenshots
+
+Output in case of reliable rosbag file:
+
+<img src="img/good.png" width="1000">
+
+
+Output in case of unreliable rosbag file:
+
+<img src="img/bad.png" width="1000">
