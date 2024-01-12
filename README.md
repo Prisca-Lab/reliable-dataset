@@ -22,17 +22,26 @@ Run the built docker container with the following command:
 docker run -it -v ${PWD}:/app/ reliable-rosbag 
 ```
 
-The rosbag is located in the folder where the dockerfile is located.
-
+Locate the rosbag file you want to check in the root folder of this repository or pass the full path to the script.
 Now you can run the reliable-rosbag.py script from the docker container with the following command:
+
 ```
 python3 reliable-rosbag.py <bag-name> -t <topic1> -t <topic2> ...
 ```
 
 ## Example
 
+Given the following rosbag file:
+- user106_2017-03-08.bag
+
+and the following topics:
+- /naoqi_driver_node/camera/front/image_raw
+- /naoqi_driver_node/camera/bottom/image_raw
+
+The complete command to run the script is the following:
+
 ```
-python3 reliable-rosbag.py user106_2017-03-08.bag -t /naoqi_driver_node/camera/front/image_raw -t /naoqi_driver_node/camera/bottom/image_raw -m var
+python3 reliable-rosbag.py user106_2017-03-08.bag -t /naoqi_driver_node/camera/front/image_raw -t /naoqi_driver_node/camera/bottom/image_raw
 ```
 
 
