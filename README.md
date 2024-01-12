@@ -16,7 +16,7 @@ Build the docker image with the following command:
 docker build -t reliable-rosbag .
 ```
 
-Run the docker image with the following command:
+Run the built docker container with the following command:
 
 ```
 docker run -it -v ${PWD}:/app/ reliable-rosbag 
