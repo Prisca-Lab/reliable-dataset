@@ -1,6 +1,8 @@
 <p align="center">
+  <a href="https://github.com/Prisca-Lab/reliable-rosbag">
   <img src="img/bag.png" alt="Rosbag" width="100">
-  <center><h1>reliable-rosbag</h1></center>
+  </a>
+  <h1 align="center">reliable-rosbag</h1>
 </p>
 
 This is a python script that can be used to check the reliability of a rosbag file. 
