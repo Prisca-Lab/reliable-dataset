@@ -2,7 +2,7 @@
   <a href="https://github.com/Prisca-Lab/reliable-rosbag">
   <img src="img/bag.png" alt="Rosbag" width="100">
   </a>
-  <h1 align="center">reliable-rosbag</h1>
+  <h1 align="center">reliable-dataset</h1>
 </p>
 
 This is a python script that can be used to check the reliability of a rosbag file. 
