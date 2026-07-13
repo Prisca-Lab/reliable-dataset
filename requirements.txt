@@ -1,0 +1,12 @@
+# Python dependencies for reliable-rosbag.py
+# Versions are pinned to the latest releases compatible with Python 3.8,
+# which is the interpreter shipped with ROS Noetic / Ubuntu 20.04.
+#
+# NOTE: `rosbag` itself is NOT installable from PyPI. It comes from ROS:
+#   apt-get install ros-noetic-rosbag
+# (the provided Dockerfile does this for you).
+
+numpy==1.24.4
+matplotlib==3.7.5
+click==8.1.8
+rich==14.3.4

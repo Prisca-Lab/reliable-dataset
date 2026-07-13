@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper it implements (see preferred-citation)."
+title: "reliable-dataset: A Rosbag Tool to Improve Dataset Reliability"
+abstract: >-
+  A Python tool that validates the temporal reliability of rosbag files by
+  measuring the dispersion (standard deviation or variance) of the time
+  differences between consecutive messages on selected ROS topics. Rosbags
+  whose dispersion exceeds a threshold are flagged as unreliable, since the
+  indeterministic delays break the semantic link between the objective
+  measures (robot logs) and the subjective measures (annotations) of an HRI
+  dataset.
+type: software
+license: GPL-3.0-or-later
+repository-code: "https://github.com/Prisca-Lab/reliable-dataset"
+authors:
+  - family-names: Vigni
+    given-names: Francesco
+    affiliation: "University of Naples Federico II, Naples, Italy"
+    email: francesco.vigni@unina.it
+  - family-names: Andriella
+    given-names: Antonio
+    affiliation: "PAL Robotics, Barcelona, Spain"
+    email: antonio.andriella@pal-robotics.com
+  - family-names: Rossi
+    given-names: Silvia
+    affiliation: "University of Naples Federico II, Naples, Italy"
+    email: silvia.rossi@unina.it
+keywords:
+  - datasets validation
+  - datasets reliability
+  - failure taxonomy
+  - human-robot interaction
+  - rosbag
+  - ROS
+preferred-citation:
+  type: conference-paper
+  title: "A Rosbag Tool to Improve Dataset Reliability"
+  authors:
+    - family-names: Vigni
+      given-names: Francesco
+      affiliation: "University of Naples Federico II, Naples, Italy"
+    - family-names: Andriella
+      given-names: Antonio
+      affiliation: "PAL Robotics, Barcelona, Spain"
+    - family-names: Rossi
+      given-names: Silvia
+      affiliation: "University of Naples Federico II, Naples, Italy"
+  collection-title: "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI '24 Companion)"
+  conference:
+    name: "2024 ACM/IEEE International Conference on Human-Robot Interaction"
+    city: Boulder
+    region: Colorado
+    country: US
+    date-start: "2024-03-11"
+    date-end: "2024-03-14"
+  publisher:
+    name: "Association for Computing Machinery"
+    city: "New York, NY"
+    country: US
+  year: 2024
+  month: 3
+  start: 1085
+  end: 1089
+  pages: 5
+  isbn: "979-8-4007-0323-2"
+  doi: "10.1145/3610978.3640556"
+  url: "https://doi.org/10.1145/3610978.3640556"
