@@ -12,6 +12,8 @@ abstract: >-
 type: software
 license: GPL-3.0-or-later
 repository-code: "https://github.com/Prisca-Lab/reliable-dataset"
+version: 1.0.0
+date-released: "2026-07-13"
 doi: "10.5281/zenodo.21339391"
 identifiers:
   - type: doi

@@ -1,6 +1,7 @@
 {
   "title": "reliable-dataset: A Rosbag Tool to Improve Dataset Reliability",
   "upload_type": "software",
+  "version": "1.0.0",
   "description": "<p>Source code accompanying the paper <em>\"A Rosbag Tool to Improve Dataset Reliability\"</em> (Vigni, Andriella &amp; Rossi), published in the Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI '24 Companion), Boulder, CO, USA. DOI: <a href=\"https://doi.org/10.1145/3610978.3640556\">10.1145/3610978.3640556</a>.</p><p>The tool validates the temporal reliability of rosbag files by measuring the dispersion (standard deviation or variance) of the time differences between consecutive messages on selected ROS topics. Rosbags whose dispersion exceeds a threshold are flagged as unreliable, because the indeterministic delays break the semantic link between the objective measures (robot logs) and the subjective measures (annotations) of an HRI dataset. In the paper, the tool is applied to the UE-HRI dataset, where 17 of 54 rosbags (31.48%) are found to exceed the threshold.</p>",
   "license": "GPL-3.0-or-later",
   "access_right": "open",
@@ -27,7 +28,11 @@
     "failure taxonomy",
     "human-robot interaction",
     "rosbag",
-    "ROS"
+    "ROS",
+    "research data quality",
+    "reproducibility",
+    "FAIR data",
+    "research software"
   ],
   "related_identifiers": [
     {
@@ -35,12 +40,13 @@
       "relation": "isSupplementTo",
       "resource_type": "publication-conferencepaper",
       "scheme": "doi"
-    },
-    {
-      "identifier": "https://github.com/Prisca-Lab/reliable-dataset",
-      "relation": "isSupplementTo",
-      "resource_type": "software",
-      "scheme": "url"
     }
+  ],
+  "grants": [
+    {"id": "10.13039/501100000780::955778"},
+    {"id": "10.13039/501100000780::801342"}
+  ],
+  "communities": [
+    {"identifier": "rse"}
   ]
 }
