@@ -7,15 +7,18 @@
   "creators": [
     {
       "name": "Vigni, Francesco",
-      "affiliation": "University of Naples Federico II, Naples, Italy"
+      "affiliation": "University of Naples Federico II, Naples, Italy",
+      "orcid": "0000-0001-9918-8485"
     },
     {
       "name": "Andriella, Antonio",
-      "affiliation": "PAL Robotics, Barcelona, Spain"
+      "affiliation": "PAL Robotics, Barcelona, Spain",
+      "orcid": "0000-0002-6641-6450"
     },
     {
       "name": "Rossi, Silvia",
-      "affiliation": "University of Naples Federico II, Naples, Italy"
+      "affiliation": "University of Naples Federico II, Naples, Italy",
+      "orcid": "0000-0002-3379-1756"
     }
   ],
   "keywords": [

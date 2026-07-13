@@ -12,6 +12,14 @@ abstract: >-
 type: software
 license: GPL-3.0-or-later
 repository-code: "https://github.com/Prisca-Lab/reliable-dataset"
+doi: "10.5281/zenodo.21339391"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21339391"
+    description: "Concept DOI — always resolves to the latest release."
+  - type: doi
+    value: "10.5281/zenodo.21339392"
+    description: "Version DOI for release v1.0.0."
 authors:
   - family-names: Vigni
     given-names: Francesco

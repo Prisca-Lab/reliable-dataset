@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://doi.org/10.1145/3610978.3640556"><img src="https://img.shields.io/badge/DOI-10.1145%2F3610978.3640556-blue" alt="Paper DOI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-green" alt="License: GPLv3"></a>
-  <!-- After the first Zenodo release, paste the Zenodo "concept DOI" badge here. -->
+  <a href="https://doi.org/10.5281/zenodo.21339391"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21339391.svg" alt="Zenodo DOI"></a>
 </p>
 
 This is a python script that can be used to check the reliability of a rosbag file. 
@@ -122,6 +122,21 @@ If you use this tool, please cite the paper:
   isbn      = {979-8-4007-0323-2},
   doi       = {10.1145/3610978.3640556},
   location  = {Boulder, CO, USA}
+}
+```
+
+To cite the software itself (archived on Zenodo), use the concept DOI
+[`10.5281/zenodo.21339391`](https://doi.org/10.5281/zenodo.21339391), which always
+resolves to the latest release:
+
+```bibtex
+@software{vigni2024reliabledataset,
+  author    = {Vigni, Francesco and Andriella, Antonio and Rossi, Silvia},
+  title     = {reliable-dataset: A Rosbag Tool to Improve Dataset Reliability},
+  year      = {2024},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21339391},
+  url       = {https://doi.org/10.5281/zenodo.21339391}
 }
 ```
 
