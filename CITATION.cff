@@ -25,14 +25,17 @@ authors:
     given-names: Francesco
     affiliation: "University of Naples Federico II, Naples, Italy"
     email: francesco.vigni@unina.it
+    orcid: "https://orcid.org/0000-0001-9918-8485"
   - family-names: Andriella
     given-names: Antonio
     affiliation: "PAL Robotics, Barcelona, Spain"
     email: antonio.andriella@pal-robotics.com
+    orcid: "https://orcid.org/0000-0002-6641-6450"
   - family-names: Rossi
     given-names: Silvia
     affiliation: "University of Naples Federico II, Naples, Italy"
     email: silvia.rossi@unina.it
+    orcid: "https://orcid.org/0000-0002-3379-1756"
 keywords:
   - datasets validation
   - datasets reliability
